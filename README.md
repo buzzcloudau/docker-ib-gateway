@@ -15,7 +15,7 @@ Docker container that launches the Interactive Brokers Gateway GUI inside of an 
     	RUN  wget -O jts4launch.jar -q http://127.0.0.1/jars/jts4launch.jar \
     	&& wget -O log4j-1.2.17.jar -q http://127.0.0.1/jars/log4j-1.2.17.jar \
     	&& wget -O total.jar -q http://127.0.0.1/jars/total.jar \
-    	&& wget -O twslaunch-install4j-1.5.jar -q https://{DOMAIN}/jars/twslaunch-install4j-1.5.jar \
+    	&& wget -O twslaunch-install4j-1.5.jar -q https://127.0.0.1/jars/twslaunch-install4j-1.5.jar \
     	&& wget -O twslaunch.jar -q http://127.0.0.1/jars/twslaunch.jar
 
 ## Usage
