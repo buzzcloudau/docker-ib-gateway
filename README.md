@@ -23,7 +23,7 @@ Docker container that launches the Interactive Brokers Gateway GUI inside of an 
     docker build ib-gateway .
     docker run -e VNC_PASSWORD=mypass -p 5900:5900 -p 4001:4001 -d ib-gateway
 
-At this point, you should be able to connect with VNC and log in to the gateway. Once logged in, port 4003 will be open for you to make API calls against.
+At this point, you should be able to connect with VNC and log in to the gateway. Once logged in, port 4001 will be open for you to make API calls against.
 
 ## Contributing
 
