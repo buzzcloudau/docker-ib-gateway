@@ -8,7 +8,7 @@ Docker container that launches the Interactive Brokers Gateway GUI inside of an 
 
     	http://interactivebrokers.github.io/
 
-2. Unpack and upload "/jars" directory to your local webserver
+2. Unpack and upload "/jars" directory to your local webserver. (Must be accessible from the Docker instance)
 
 3. Modify these lines in your "Dockerfile" to point to the correct local webserver
 
